@@ -3,3 +3,59 @@
  font-family: 'Roboto'sans-serif;
 
 }
+
+.menu__item {
+    padding: 0 13px;
+}
+  .menu__item:last-child {
+  padding-right: 0;
+}
+.header, .main-section {
+}
+body {
+margin: 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.main-section {
+}
+.wrapper {
+  margin: auto;
+  width: 80%;
+}
+.logo, .menu {
+   display: inline-block;
+}
+.logo {
+  padding: 40px 0;
+  padding-left: 44px;
+
+  position: relative;
+  font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
+}
+.logo__circle {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+.logo__circle_color_blue {
+  left: 8px;
+  top: 56%;
+  background: #C8DBFB;
+  opacity: .7;
+}
+.logo__circle_color_dark-blue {
+  background: #0056EC;
+  opacity: .7;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
