@@ -10,7 +10,6 @@ body {
 .header {
    display: flex;
    justify-content: space-between;
-   margin-bottom: 100px;
 }
 .main-section {
 }
@@ -117,7 +116,6 @@ body {
 
  .main {
  text-align:left;
- padding: 10% 0 0;
 
  background: right no-repeat url(img/mainImg.svg);
 
